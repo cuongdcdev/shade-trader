@@ -22,7 +22,7 @@ export default function Home() {
             <Link href="/create">Create Order</Link>
           </Button>
           <Button asChild variant="outline" size="lg">
-            <Link href="/dashboard">View Dashboard</Link>
+            <Link href="/open-orders">View Open Orders</Link>
           </Button>
         </div>
         
