@@ -1,0 +1,40 @@
+[
+    {
+        "intents_token_id": "nep141:wrap.near",
+        "decimals": 24,
+        "blockchain": "near",
+        "symbol": "NEAR",
+        "contract_address": "wrap.near"
+    },
+    {
+        "intents_token_id": "nep141:usdt.tether-token.near",
+        "decimals": 6,
+        "blockchain": "near",
+        "symbol": "USDT",
+        "contract_address": "usdt.tether-token.near"
+    },
+    {
+        "intents_token_id": "nep141:zec.omft.near",
+        "decimals": 8,
+        "blockchain": "zec",
+        "symbol": "ZEC"
+    },
+    {
+        "intents_token_id": "nep141:xrp.omft.near",
+        "decimals": 6,
+        "blockchain": "xrp",
+        "symbol": "XRP"
+    },
+    {
+        "intents_token_id": "nep141:doge.omft.near",
+        "decimals": 8,
+        "blockchain": "doge",
+        "symbol": "DOGE"
+    },
+    {
+        "intents_token_id": "nep141:btc.omft.near",
+        "decimals": 8,
+        "blockchain": "btc",
+        "symbol": "BTC"
+    }
+]

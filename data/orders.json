@@ -1,0 +1,1003 @@
+[
+  {
+    "orderId": "ord_12345abcde",
+    "createdAt": "2025-06-30T15:30:00Z",
+    "status": "Cancelled",
+    "user": "near_1a2b3c...7z",
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "repeatDaily": true,
+      "telegramNotification": true,
+      "expiryDays": 5,
+      "expiresAt": "2025-07-05T15:30:00Z"
+    },
+    "cancelledAt": "2025-07-01T16:35:04.822Z"
+  },
+  {
+    "orderId": "ord_67890fghij",
+    "createdAt": "2025-06-29T10:15:00Z",
+    "status": "Executed",
+    "user": "near_1a2b3c...7z",
+    "filledAt": "2025-06-29T14:30:00Z",
+    "conditions": [
+      {
+        "token": "XRP",
+        "metric": "price",
+        "operator": ">",
+        "value": "0.50"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "500",
+      "token": "XRP"
+    },
+    "settings": {
+      "repeatDaily": false,
+      "telegramNotification": true,
+      "expiryDays": 7,
+      "expiresAt": "2025-07-06T10:15:00Z"
+    }
+  },
+  {
+    "orderId": "ord_54321edcba",
+    "createdAt": "2025-06-30T14:45:00Z",
+    "status": "Executed",
+    "user": "near_7z6y5x...1a",
+    "conditions": [
+      {
+        "metric": "btc_dom",
+        "operator": ">",
+        "value": "50"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "200",
+      "token": "DOGE"
+    },
+    "settings": {
+      "repeatDaily": false,
+      "telegramNotification": false,
+      "expiryDays": 3,
+      "expiresAt": "2025-07-03T14:45:00Z"
+    },
+    "filledAt": "2025-07-02T10:09:12.988Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": ">",
+        "value": "3.00"
+      },
+      {
+        "token": "ETH",
+        "metric": "market_cap",
+        "operator": ">",
+        "value": "111"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "repeatDaily": true,
+      "telegramNotification": true,
+      "expiryDays": 5,
+      "expiresAt": "2025-07-06T16:35:22.062Z"
+    },
+    "orderId": "ord_09d0702a-d",
+    "createdAt": "2025-07-01T16:35:22.062Z",
+    "status": "Cancelled",
+    "user": "near_1a2b3c...7z",
+    "cancelledAt": "2025-07-01T16:51:54.298Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "ETH",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "3000000000"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-09T03:35:28.180Z"
+    },
+    "orderId": "ord_b444b249-3",
+    "createdAt": "2025-07-02T03:35:28.180Z",
+    "status": "Cancelled",
+    "user": "near_1a2b3c...7z",
+    "cancelledAt": "2025-07-02T10:14:19.184Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "=",
+        "value": "3000000"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-09T08:13:22.509Z"
+    },
+    "orderId": "ord_da6c715f-7",
+    "createdAt": "2025-07-02T08:13:22.509Z",
+    "status": "Cancelled",
+    "user": "near_1a2b3c...7z",
+    "cancelledAt": "2025-07-02T10:14:16.153Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "3000000000"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "0.1",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-09T08:14:06.308Z"
+    },
+    "orderId": "ord_0f62d32e-0",
+    "createdAt": "2025-07-02T08:14:06.308Z",
+    "status": "Cancelled",
+    "user": "near_1a2b3c...7z",
+    "cancelledAt": "2025-07-02T10:14:19.601Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "5000000000"
+      },
+      {
+        "metric": "btc_dom",
+        "operator": "<",
+        "value": "60"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "69",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-09T10:15:21.059Z"
+    },
+    "orderId": "ord_cbe37e1b-6",
+    "createdAt": "2025-07-02T10:15:21.059Z",
+    "status": "Executed",
+    "user": "near_1a2b3c...7z",
+    "cancelledAt": "2025-07-02T10:16:06.085Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "5000000000"
+      },
+      {
+        "metric": "btc_dom",
+        "operator": "<",
+        "value": "70.01"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-09T10:16:40.971Z"
+    },
+    "orderId": "ord_4742143d-b",
+    "createdAt": "2025-07-02T10:16:40.971Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "filledAt": "2025-07-02T10:44:01.610Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "5000000000"
+      },
+      {
+        "metric": "btc_dom",
+        "operator": "<",
+        "value": "70.01"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-09T10:16:40.971Z"
+    },
+    "orderId": "ord_4742143d-b",
+    "createdAt": "2025-07-02T10:16:40.971Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "filledAt": "2025-07-02T10:44:01.610Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "5000000000"
+      },
+      {
+        "metric": "btc_dom",
+        "operator": "<",
+        "value": "70.01"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-09T10:16:40.971Z"
+    },
+    "orderId": "ord_58",
+    "createdAt": "2025-07-02T10:16:40.971Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "filledAt": "2025-07-02T10:44:01.610Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "5000000000"
+      },
+      {
+        "metric": "btc_dom",
+        "operator": "<",
+        "value": "70.01"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-09T10:16:40.971Z"
+    },
+    "orderId": "ord_56",
+    "createdAt": "2025-07-02T10:16:40.971Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "filledAt": "2025-07-02T10:44:01.610Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "ETH",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "1690110000"
+      },
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "1000000"
+      },
+      {
+        "metric": "btc_dom",
+        "operator": "<",
+        "value": "99.8"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-10T03:38:43.947Z"
+    },
+    "orderId": "ord_e0c46ffe-7",
+    "createdAt": "2025-07-03T03:38:43.947Z",
+    "status": "Cancelled",
+    "user": "meteorkent.near",
+    "cancelledAt": "2025-07-03T03:39:17.320Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "3080000"
+      },
+      {
+        "token": "BTC",
+        "metric": "price",
+        "operator": "<",
+        "value": "69"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-10T03:46:01.144Z"
+    },
+    "orderId": "ord_9f7def01-5",
+    "createdAt": "2025-07-03T03:46:01.144Z",
+    "status": "Cancelled",
+    "user": "meteorkent.near",
+    "cancelledAt": "2025-07-06T11:24:48.005Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "ETH",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "11000000"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "69",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-10T03:46:47.367Z"
+    },
+    "orderId": "ord_87c37d22-9",
+    "createdAt": "2025-07-03T03:46:47.367Z",
+    "status": "Open",
+    "user": "cuongdcc.tg"
+  },
+  {
+    "conditions": [
+      {
+        "token": "BTC",
+        "metric": "market_cap",
+        "operator": ">",
+        "value": "3000000"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "22",
+      "token": "DOGE"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-10T03:47:10.818Z"
+    },
+    "orderId": "ord_55653b3d-0",
+    "createdAt": "2025-07-03T03:47:10.818Z",
+    "status": "Open",
+    "user": "cuongdcc.tg"
+  },
+  {
+    "conditions": [
+      {
+        "metric": "btc_dom",
+        "operator": ">",
+        "value": "100"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "1",
+      "token": "DOGE"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-10T07:48:34.928Z"
+    },
+    "orderId": "ord_e0a85715-0",
+    "createdAt": "2025-07-03T07:48:34.928Z",
+    "status": "Cancelled",
+    "user": "lamkhanh.near",
+    "cancelledAt": "2025-07-04T08:41:36.066Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": ">",
+        "value": "111111000000"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-10T07:48:56.819Z"
+    },
+    "orderId": "ord_2bc9e051-b",
+    "createdAt": "2025-07-03T07:48:56.819Z",
+    "status": "Cancelled",
+    "user": "lamkhanh.near",
+    "cancelledAt": "2025-07-04T16:08:50.628Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "DOGE",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "500000000"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "10",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-10T07:52:01.090Z"
+    },
+    "orderId": "ord_5ab69151-9",
+    "createdAt": "2025-07-03T07:52:01.090Z",
+    "status": "Cancelled",
+    "user": "lamkhanh.near",
+    "cancelledAt": "2025-07-03T07:52:06.534Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "20"
+      },
+      {
+        "metric": "btc_dom",
+        "operator": "<",
+        "value": "90"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "2",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T08:32:29.779Z"
+    },
+    "orderId": "ord_be0bc156-c",
+    "createdAt": "2025-07-04T08:32:29.779Z",
+    "status": "Failed",
+    "user": "lamkhanh.near",
+    "failedAt": "2025-07-04T08:32:30.107Z",
+    "failureReason": "NEAR Intents swap execution failed"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T08:41:50.617Z"
+    },
+    "orderId": "ord_3f41e59d-4",
+    "createdAt": "2025-07-04T08:41:50.617Z",
+    "status": "Failed",
+    "user": "lamkhanh.near",
+    "failedAt": "2025-07-04T08:42:00.474Z",
+    "failureReason": "NEAR Intents swap execution failed"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "8"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T08:50:49.500Z"
+    },
+    "orderId": "ord_f6ac9687-3",
+    "createdAt": "2025-07-04T08:50:49.500Z",
+    "status": "Failed",
+    "user": "lamkhanh.near",
+    "failedAt": "2025-07-04T08:51:00.911Z",
+    "failureReason": "NEAR Intents swap execution failed"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T09:14:36.862Z"
+    },
+    "orderId": "ord_6cae246a-e",
+    "createdAt": "2025-07-04T09:14:36.862Z",
+    "status": "Failed",
+    "user": "lamkhanh.near",
+    "failedAt": "2025-07-04T09:15:00.114Z",
+    "failureReason": "NEAR Intents swap execution failed"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "999"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T09:18:08.523Z"
+    },
+    "orderId": "ord_581cf099-c",
+    "createdAt": "2025-07-04T09:18:08.523Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "GddzR1Ynhid3pfFCuiFZZU7stHfcbyqMcmR4NN9WrqKv",
+    "amountOut": "1.2448641199634804473",
+    "filledAt": "2025-07-04T09:18:44.231Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "5000000"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T14:45:38.286Z"
+    },
+    "orderId": "ord_8b26d75e-e",
+    "createdAt": "2025-07-04T14:45:38.286Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "7Dy3EUeMM7g3sQAre5gc6fQoLN1yzUb1vDi5dGumkbFe",
+    "amountOut": "2.694211",
+    "filledAt": "2025-07-04T14:45:52.368Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "60"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "11",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T14:58:52.201Z"
+    },
+    "orderId": "ord_a05dd8c8-9",
+    "createdAt": "2025-07-04T14:58:52.201Z",
+    "status": "Failed",
+    "user": "lamkhanh.near",
+    "failedAt": "2025-07-04T14:59:08.479Z",
+    "failureReason": "NEAR Intents swap execution failed"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T15:00:08.169Z"
+    },
+    "orderId": "ord_46eb2178-1",
+    "createdAt": "2025-07-04T15:00:08.169Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "Aq1ffG4eQoH3f1J58A8sX1m3nYJKo89Z14GuYT2vRTKX",
+    "amountOut": "1.2440814240197958817",
+    "filledAt": "2025-07-04T15:00:35.996Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "2",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T15:02:36.770Z"
+    },
+    "orderId": "ord_4aa68f97-e",
+    "createdAt": "2025-07-04T15:02:36.770Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "4MtxBFTGPPhnsPriMPq1WkqsqHu9o4TLnM5TtLEiXoEC",
+    "amountOut": "2.686305",
+    "filledAt": "2025-07-04T15:03:06.350Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "222",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T15:03:32.469Z"
+    },
+    "orderId": "ord_6c51bb41-1",
+    "createdAt": "2025-07-04T15:03:32.469Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "4eCnjnroAu5mam27gtFDrsZ6DWQdiYosabbGrPZkmUZg",
+    "amountOut": "1.2397600719470427951",
+    "filledAt": "2025-07-04T15:04:06.532Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "3333",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T15:04:26.292Z"
+    },
+    "orderId": "ord_7f0e5365-9",
+    "createdAt": "2025-07-04T15:04:26.292Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "EfKfNasZXwhdMyW8v18rSL8ZMZ2tyM1ZwEveeyEChb81",
+    "amountOut": "2.67817",
+    "filledAt": "2025-07-04T15:04:36.938Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "market_cap",
+        "operator": "<",
+        "value": "30000000000"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T15:15:19.545Z"
+    },
+    "orderId": "ord_dcc93282-c",
+    "createdAt": "2025-07-04T15:15:19.545Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "25BziSmqgHGUZvav9ugpToeq6axnfyw28sq3FoWJAY4Y",
+    "amountOut": "1.2412003891278360278",
+    "filledAt": "2025-07-04T15:15:36.477Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      },
+      {
+        "metric": "btc_dom",
+        "operator": ">",
+        "value": "10"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T15:16:59.292Z"
+    },
+    "orderId": "ord_4e37023f-5",
+    "createdAt": "2025-07-04T15:16:59.292Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "EmvgMUjRDCS1aZLQShjhfEJzr5i7n4D7BdTfENyfbZTY",
+    "amountOut": "2.672646",
+    "filledAt": "2025-07-04T15:17:05.997Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "XRP",
+        "metric": "price",
+        "operator": "<",
+        "value": "7"
+      },
+      {
+        "metric": "btc_dom",
+        "operator": "<",
+        "value": "100"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T15:58:50.022Z"
+    },
+    "orderId": "ord_9d8e9f91-d",
+    "createdAt": "2025-07-04T15:58:50.022Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "DdmyJDNAt4oVjuiegy8i1WDWbfXTEN6Mfa2RPEEYejf",
+    "amountOut": "1.244376903946176",
+    "filledAt": "2025-07-04T15:59:06.704Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      },
+      {
+        "token": "DOGE",
+        "metric": "price",
+        "operator": "<",
+        "value": "0.001"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T16:09:36.409Z"
+    },
+    "orderId": "ord_14802a7f-9",
+    "createdAt": "2025-07-04T16:09:36.409Z",
+    "status": "Cancelled",
+    "user": "lamkhanh.near",
+    "cancelledAt": "2025-07-04T16:14:22.023Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      },
+      {
+        "token": "DOGE",
+        "metric": "price",
+        "operator": "<",
+        "value": "33"
+      }
+    ],
+    "action": {
+      "type": "Buy",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T16:12:37.188Z"
+    },
+    "orderId": "ord_9dd1ed12-0",
+    "createdAt": "2025-07-04T16:12:37.188Z",
+    "status": "Failed",
+    "user": "lamkhanh.near",
+    "failedAt": "2025-07-04T16:13:09.949Z",
+    "failureReason": "NEAR Intents swap execution failed"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "3.00"
+      },
+      {
+        "token": "DOGE",
+        "metric": "price",
+        "operator": "<",
+        "value": "111"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "100",
+      "token": "NEAR"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-11T16:14:14.712Z"
+    },
+    "orderId": "ord_ffc7456a-a",
+    "createdAt": "2025-07-04T16:14:14.712Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "5VdCV3BVdYqpgBaMaz2K47mh8VYsedLtp64phoQ32N76",
+    "amountOut": "2.639932",
+    "filledAt": "2025-07-04T16:14:35.590Z"
+  },
+  {
+    "conditions": [
+      {
+        "token": "NEAR",
+        "metric": "price",
+        "operator": "<",
+        "value": "6"
+      }
+    ],
+    "action": {
+      "type": "Sell",
+      "amount": "8",
+      "token": "DOGE"
+    },
+    "settings": {
+      "telegramNotification": true,
+      "expiresAt": "2025-07-13T11:11:14.223Z"
+    },
+    "orderId": "ord_a4890897-9",
+    "createdAt": "2025-07-06T11:11:14.223Z",
+    "status": "Executed",
+    "user": "lamkhanh.near",
+    "txHash": "7Btbug8ETupdEYzDh232PoNANUw56GBB9m4cEibi77m4",
+    "amountOut": "1.311059",
+    "filledAt": "2025-07-06T11:11:32.255Z"
+  }
+]

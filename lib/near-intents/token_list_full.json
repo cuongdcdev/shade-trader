@@ -1,0 +1,598 @@
+[
+    {
+        "intents_token_id": "nep141:wrap.near",
+        "decimals": 24,
+        "blockchain": "near",
+        "symbol": "NEAR",
+        "contract_address": "wrap.near"
+    },
+    {
+        "intents_token_id": "nep141:eth.bridge.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "ETH",
+        "contract_address": "eth.bridge.near"
+    },
+    {
+        "intents_token_id": "nep141:17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1",
+        "decimals": 6,
+        "blockchain": "near",
+        "symbol": "USDC",
+        "contract_address": "17208628f84f5d6ad33f0da3bbbeb27ffcb398eac501a31bd6ad2011e36133a1"
+    },
+    {
+        "intents_token_id": "nep141:usdt.tether-token.near",
+        "decimals": 6,
+        "blockchain": "near",
+        "symbol": "USDT",
+        "contract_address": "usdt.tether-token.near"
+    },
+    {
+        "intents_token_id": "nep141:token.v2.ref-finance.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "REF",
+        "contract_address": "token.v2.ref-finance.near"
+    },
+    {
+        "intents_token_id": "nep141:853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "FRAX",
+        "contract_address": "853d955acef822db058eb8505911ed77f175b99e.factory.bridge.near"
+    },
+    {
+        "intents_token_id": "nep141:aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "AURORA",
+        "contract_address": "aaaaaa20d9e0e2461697782ef11675f668207961.factory.bridge.near"
+    },
+    {
+        "intents_token_id": "nep141:2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near",
+        "decimals": 8,
+        "blockchain": "near",
+        "symbol": "wBTC",
+        "contract_address": "2260fac5e5542a773aa44fbcfedf7c193bc2c599.factory.bridge.near"
+    },
+    {
+        "intents_token_id": "nep141:blackdragon.tkn.near",
+        "decimals": 24,
+        "blockchain": "near",
+        "symbol": "BLACKDRAGON",
+        "contract_address": "blackdragon.tkn.near"
+    },
+    {
+        "intents_token_id": "nep141:token.0xshitzu.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "SHITZU",
+        "contract_address": "token.0xshitzu.near"
+    },
+    {
+        "intents_token_id": "nep141:purge-558.meme-cooking.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "PURGE",
+        "contract_address": "purge-558.meme-cooking.near"
+    },
+    {
+        "intents_token_id": "nep141:token.burrow.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "BRRR",
+        "contract_address": "token.burrow.near"
+    },
+    {
+        "intents_token_id": "nep141:abg-966.meme-cooking.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "ABG",
+        "contract_address": "abg-966.meme-cooking.near"
+    },
+    {
+        "intents_token_id": "nep141:noear-324.meme-cooking.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "NOEAR",
+        "contract_address": "noear-324.meme-cooking.near"
+    },
+    {
+        "intents_token_id": "nep141:mpdao-token.near",
+        "decimals": 6,
+        "blockchain": "near",
+        "symbol": "mpDAO",
+        "contract_address": "mpdao-token.near"
+    },
+    {
+        "intents_token_id": "nep141:zec.omft.near",
+        "decimals": 8,
+        "blockchain": "zec",
+        "symbol": "ZEC"
+    },
+    {
+        "intents_token_id": "nep141:gnear-229.meme-cooking.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "GNEAR",
+        "contract_address": "gnear-229.meme-cooking.near"
+    },
+    {
+        "intents_token_id": "nep141:test-token.highdome3013.near",
+        "decimals": 8,
+        "blockchain": "near",
+        "symbol": "TESTNEBULA",
+        "contract_address": "test-token.highdome3013.near"
+    },
+    {
+        "intents_token_id": "nep141:eth-0xaaaaaa20d9e0e2461697782ef11675f668207961.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "AURORA",
+        "contract_address": "0xaaaaaa20d9e0e2461697782ef11675f668207961"
+    },
+    {
+        "intents_token_id": "nep141:eth.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "ETH"
+    },
+    {
+        "intents_token_id": "nep141:eth-0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf.omft.near",
+        "decimals": 8,
+        "blockchain": "eth",
+        "symbol": "cbBTC",
+        "contract_address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+    },
+    {
+        "intents_token_id": "nep141:btc.omft.near",
+        "decimals": 8,
+        "blockchain": "btc",
+        "symbol": "BTC"
+    },
+    {
+        "intents_token_id": "nep141:sol.omft.near",
+        "decimals": 9,
+        "blockchain": "sol",
+        "symbol": "SOL"
+    },
+    {
+        "intents_token_id": "nep141:arb-0x912ce59144191c1204e64559fe8253a0e49e6548.omft.near",
+        "decimals": 18,
+        "blockchain": "arb",
+        "symbol": "ARB",
+        "contract_address": "0x912ce59144191c1204e64559fe8253a0e49e6548"
+    },
+    {
+        "intents_token_id": "nep141:doge.omft.near",
+        "decimals": 8,
+        "blockchain": "doge",
+        "symbol": "DOGE"
+    },
+    {
+        "intents_token_id": "nep141:xrp.omft.near",
+        "decimals": 6,
+        "blockchain": "xrp",
+        "symbol": "XRP"
+    },
+    {
+        "intents_token_id": "nep141:token.sweat",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "SWEAT",
+        "contract_address": "token.sweat"
+    },
+    {
+        "intents_token_id": "nep141:eth-0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.omft.near",
+        "decimals": 6,
+        "blockchain": "eth",
+        "symbol": "USDC",
+        "contract_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    },
+    {
+        "intents_token_id": "nep141:eth-0xdac17f958d2ee523a2206206994597c13d831ec7.omft.near",
+        "decimals": 6,
+        "blockchain": "eth",
+        "symbol": "USDT",
+        "contract_address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    },
+    {
+        "intents_token_id": "nep141:eth-0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "KNC",
+        "contract_address": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202"
+    },
+    {
+        "intents_token_id": "nep141:eth-0xa35923162c49cf95e6bf26623385eb431ad920d3.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "TURBO",
+        "contract_address": "0xa35923162c49cf95e6bf26623385eb431ad920d3"
+    },
+    {
+        "intents_token_id": "nep141:sol-b9c68f94ec8fd160137af8cdfe5e61cd68e2afba.omft.near",
+        "decimals": 6,
+        "blockchain": "sol",
+        "symbol": "$WIF"
+    },
+    {
+        "intents_token_id": "nep141:sol-57d087fd8c460f612f8701f5499ad8b2eec5ab68.omft.near",
+        "decimals": 6,
+        "blockchain": "sol",
+        "symbol": "BOME"
+    },
+    {
+        "intents_token_id": "nep141:sol-c58e6539c2f2e097c251f8edf11f9c03e581f8d4.omft.near",
+        "decimals": 6,
+        "blockchain": "sol",
+        "symbol": "TRUMP"
+    },
+    {
+        "intents_token_id": "nep141:sol-d600e625449a4d9380eaf5e3265e54c90d34e260.omft.near",
+        "decimals": 6,
+        "blockchain": "sol",
+        "symbol": "MELANIA"
+    },
+    {
+        "intents_token_id": "nep141:sol-bb27241c87aa401cc963c360c175dd7ca7035873.omft.near",
+        "decimals": 6,
+        "blockchain": "sol",
+        "symbol": "LOUD"
+    },
+    {
+        "intents_token_id": "nep141:eth-0x6b175474e89094c44da98b954eedeac495271d0f.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "DAI",
+        "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f"
+    },
+    {
+        "intents_token_id": "nep141:gnosis-0x9c58bacc331c9aa871afd802db6379a98e80cedb.omft.near",
+        "decimals": 18,
+        "blockchain": "gnosis",
+        "symbol": "GNO",
+        "contract_address": "0x9c58bacc331c9aa871afd802db6379a98e80cedb"
+    },
+    {
+        "intents_token_id": "nep141:gnosis-0x177127622c4a00f3d409b75571e12cb3c8973d3c.omft.near",
+        "decimals": 18,
+        "blockchain": "gnosis",
+        "symbol": "COW",
+        "contract_address": "0x177127622c4a00f3d409b75571e12cb3c8973d3c"
+    },
+    {
+        "intents_token_id": "nep141:gnosis-0x4d18815d14fe5c3304e87b3fa18318baa5c23820.omft.near",
+        "decimals": 18,
+        "blockchain": "gnosis",
+        "symbol": "SAFE",
+        "contract_address": "0x4d18815d14fe5c3304e87b3fa18318baa5c23820"
+    },
+    {
+        "intents_token_id": "nep141:bera.omft.near",
+        "decimals": 18,
+        "blockchain": "bera",
+        "symbol": "BERA"
+    },
+    {
+        "intents_token_id": "nep245:v2_1.omni.hot.tg:56_11111111111111111111",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "BNB",
+        "contract_address": "v2_1.omni.hot.tg"
+    },
+    {
+        "intents_token_id": "nep245:v2_1.omni.hot.tg:137_11111111111111111111",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "POL",
+        "contract_address": "v2_1.omni.hot.tg"
+    },
+    {
+        "intents_token_id": "nep141:base-0x98d0baa52b2d063e780de12f615f963fe8537553.omft.near",
+        "decimals": 18,
+        "blockchain": "base",
+        "symbol": "KAITO",
+        "contract_address": "0x98d0baa52b2d063e780de12f615f963fe8537553"
+    },
+    {
+        "intents_token_id": "nep141:tron.omft.near",
+        "decimals": 6,
+        "blockchain": "tron",
+        "symbol": "TRX"
+    },
+    {
+        "intents_token_id": "nep245:v2_1.omni.hot.tg:1117_",
+        "decimals": 9,
+        "blockchain": "near",
+        "symbol": "TON",
+        "contract_address": "v2_1.omni.hot.tg"
+    },
+    {
+        "intents_token_id": "nep141:base.omft.near",
+        "decimals": 18,
+        "blockchain": "base",
+        "symbol": "ETH"
+    },
+    {
+        "intents_token_id": "nep141:base-0x833589fcd6edb6e08f4c7c32d4f71b54bda02913.omft.near",
+        "decimals": 6,
+        "blockchain": "base",
+        "symbol": "USDC",
+        "contract_address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+    },
+    {
+        "intents_token_id": "nep141:base-0x532f27101965dd16442e59d40670faf5ebb142e4.omft.near",
+        "decimals": 18,
+        "blockchain": "base",
+        "symbol": "BRETT",
+        "contract_address": "0x532f27101965dd16442e59d40670faf5ebb142e4"
+    },
+    {
+        "intents_token_id": "nep141:arb.omft.near",
+        "decimals": 18,
+        "blockchain": "arb",
+        "symbol": "ETH"
+    },
+    {
+        "intents_token_id": "nep141:arb-0xaf88d065e77c8cc2239327c5edb3a432268e5831.omft.near",
+        "decimals": 6,
+        "blockchain": "arb",
+        "symbol": "USDC",
+        "contract_address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+    },
+    {
+        "intents_token_id": "nep141:arb-0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a.omft.near",
+        "decimals": 18,
+        "blockchain": "arb",
+        "symbol": "GMX",
+        "contract_address": "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"
+    },
+    {
+        "intents_token_id": "nep141:eth-0xaaee1a9723aadb7afa2810263653a34ba2c21c7a.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "MOG",
+        "contract_address": "0xaaee1a9723aadb7afa2810263653a34ba2c21c7a"
+    },
+    {
+        "intents_token_id": "nep141:eth-0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "AAVE",
+        "contract_address": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9"
+    },
+    {
+        "intents_token_id": "nep141:eth-0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "UNI",
+        "contract_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+    },
+    {
+        "intents_token_id": "nep141:eth-0x514910771af9ca656af840dff83e8264ecf986ca.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "LINK",
+        "contract_address": "0x514910771af9ca656af840dff83e8264ecf986ca"
+    },
+    {
+        "intents_token_id": "nep141:eth-0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "SHIB",
+        "contract_address": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+    },
+    {
+        "intents_token_id": "nep141:eth-0x6982508145454ce325ddbe47a25d4ec3d2311933.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "PEPE",
+        "contract_address": "0x6982508145454ce325ddbe47a25d4ec3d2311933"
+    },
+    {
+        "intents_token_id": "nep141:aurora",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "ETH(DEPRECATED)",
+        "contract_address": "aurora"
+    },
+    {
+        "intents_token_id": "nep141:nbtc.bridge.near",
+        "decimals": 8,
+        "blockchain": "near",
+        "symbol": "BTC",
+        "contract_address": "nbtc.bridge.near"
+    },
+    {
+        "intents_token_id": "nep141:sol-91914f13d3b54f8126a2824d71632d4b078d7403.omft.near",
+        "decimals": 8,
+        "blockchain": "sol",
+        "symbol": "xBTC"
+    },
+    {
+        "intents_token_id": "nep141:a35923162c49cf95e6bf26623385eb431ad920d3.factory.bridge.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "TURBO",
+        "contract_address": "a35923162c49cf95e6bf26623385eb431ad920d3.factory.bridge.near"
+    },
+    {
+        "intents_token_id": "nep141:arb-0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.omft.near",
+        "decimals": 6,
+        "blockchain": "arb",
+        "symbol": "USDT",
+        "contract_address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+    },
+    {
+        "intents_token_id": "nep141:sol-5ce3bf3a31af18be40ba30f721101b4341690186.omft.near",
+        "decimals": 6,
+        "blockchain": "sol",
+        "symbol": "USDC"
+    },
+    {
+        "intents_token_id": "nep141:sol-c800a4bd850783ccb82c2b2c7e84175443606352.omft.near",
+        "decimals": 6,
+        "blockchain": "sol",
+        "symbol": "USDT"
+    },
+    {
+        "intents_token_id": "nep141:sol-df27d7abcc1c656d4ac3b1399bbfbba1994e6d8c.omft.near",
+        "decimals": 8,
+        "blockchain": "sol",
+        "symbol": "TURBO"
+    },
+    {
+        "intents_token_id": "nep141:gnosis.omft.near",
+        "decimals": 18,
+        "blockchain": "gnosis",
+        "symbol": "xDAI"
+    },
+    {
+        "intents_token_id": "nep141:gnosis-0x2a22f9c3b484c3629090feed35f17ff8f88f76f0.omft.near",
+        "decimals": 6,
+        "blockchain": "gnosis",
+        "symbol": "USDC",
+        "contract_address": "0x2a22f9c3b484c3629090feed35f17ff8f88f76f0"
+    },
+    {
+        "intents_token_id": "nep141:gnosis-0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1.omft.near",
+        "decimals": 18,
+        "blockchain": "gnosis",
+        "symbol": "WETH",
+        "contract_address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1"
+    },
+    {
+        "intents_token_id": "nep245:v2_1.omni.hot.tg:137_qiStmoQJDQPTebaPjgx5VBxZv6L",
+        "decimals": 6,
+        "blockchain": "near",
+        "symbol": "USDC",
+        "contract_address": "v2_1.omni.hot.tg"
+    },
+    {
+        "intents_token_id": "nep245:v2_1.omni.hot.tg:137_3hpYoaLtt8MP1Z2GH1U473DMRKgr",
+        "decimals": 6,
+        "blockchain": "near",
+        "symbol": "USDT",
+        "contract_address": "v2_1.omni.hot.tg"
+    },
+    {
+        "intents_token_id": "nep245:v2_1.omni.hot.tg:56_2w93GqMcEmQFDru84j3HZZWt557r",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "USDC",
+        "contract_address": "v2_1.omni.hot.tg"
+    },
+    {
+        "intents_token_id": "nep245:v2_1.omni.hot.tg:56_2CMMyVTGZkeyNZTSvS5sarzfir6g",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "USDT",
+        "contract_address": "v2_1.omni.hot.tg"
+    },
+    {
+        "intents_token_id": "nep141:d9c2d319cd7e6177336b0a9c93c21cb48d84fb54.factory.bridge.near",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "HAPI",
+        "contract_address": "d9c2d319cd7e6177336b0a9c93c21cb48d84fb54.factory.bridge.near"
+    },
+    {
+        "intents_token_id": "nep141:eth-0xd9c2d319cd7e6177336b0a9c93c21cb48d84fb54.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "HAPI",
+        "contract_address": "0xd9c2d319cd7e6177336b0a9c93c21cb48d84fb54"
+    },
+    {
+        "intents_token_id": "nep141:base-0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf.omft.near",
+        "decimals": 8,
+        "blockchain": "base",
+        "symbol": "cbBTC",
+        "contract_address": "0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf"
+    },
+    {
+        "intents_token_id": "nep141:base-0x227d920e20ebac8a40e7d6431b7d724bb64d7245.omft.near",
+        "decimals": 18,
+        "blockchain": "base",
+        "symbol": "SWEAT",
+        "contract_address": "0x227d920e20ebac8a40e7d6431b7d724bb64d7245"
+    },
+    {
+        "intents_token_id": "nep141:eth-0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "SWEAT",
+        "contract_address": "0xb4b9dc1c77bdbb135ea907fd5a08094d98883a35"
+    },
+    {
+        "intents_token_id": "nep141:arb-0xca7dec8550f43a5e46e3dfb95801f64280e75b27.omft.near",
+        "decimals": 18,
+        "blockchain": "arb",
+        "symbol": "SWEAT",
+        "contract_address": "0xca7dec8550f43a5e46e3dfb95801f64280e75b27"
+    },
+    {
+        "intents_token_id": "nep245:v2_1.omni.hot.tg:56_28V9BijGeZDBFEEtkAcnJo4tPRH4",
+        "decimals": 18,
+        "blockchain": "near",
+        "symbol": "SWEAT",
+        "contract_address": "v2_1.omni.hot.tg"
+    },
+    {
+        "intents_token_id": "nep141:tron-d28a265909efecdcee7c5028585214ea0b96f015.omft.near",
+        "decimals": 6,
+        "blockchain": "tron",
+        "symbol": "USDT",
+        "contract_address": "d28a265909efecdcee7c5028585214ea0b96f015"
+    },
+    {
+        "intents_token_id": "nep245:v2_1.omni.hot.tg:1117_3tsdfyziyc7EJbP2aULWSKU4toBaAcN4FdTgfm5W1mC4ouR",
+        "decimals": 6,
+        "blockchain": "near",
+        "symbol": "USDT",
+        "contract_address": "v2_1.omni.hot.tg"
+    },
+    {
+        "intents_token_id": "nep141:base-0xa5c67d8d37b88c2d88647814da5578128e2c93b2.omft.near",
+        "decimals": 18,
+        "blockchain": "base",
+        "symbol": "FMS",
+        "contract_address": "0xa5c67d8d37b88c2d88647814da5578128e2c93b2"
+    },
+    {
+        "intents_token_id": "nep141:pol-0x3c499c542cef5e3811e1192ce70d8cc03d5c3359.omft.near",
+        "decimals": 6,
+        "blockchain": "pol",
+        "symbol": "USDC",
+        "contract_address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359"
+    },
+    {
+        "intents_token_id": "nep141:bsc-0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.omft.near",
+        "decimals": 18,
+        "blockchain": "bsc",
+        "symbol": "USDC",
+        "contract_address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+    },
+    {
+        "intents_token_id": "nep141:bsc-0x55d398326f99059ff775485246999027b3197955.omft.near",
+        "decimals": 18,
+        "blockchain": "bsc",
+        "symbol": "USDT",
+        "contract_address": "0x55d398326f99059ff775485246999027b3197955"
+    },
+    {
+        "intents_token_id": "nep141:eth-0xfa2b947eec368f42195f24f36d2af29f7c24cec2.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "USDf",
+        "contract_address": "0xfa2b947eec368f42195f24f36d2af29f7c24cec2"
+    },
+    {
+        "intents_token_id": "nep141:eth-0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d.omft.near",
+        "decimals": 18,
+        "blockchain": "eth",
+        "symbol": "USD1",
+        "contract_address": "0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d"
+    }
+]

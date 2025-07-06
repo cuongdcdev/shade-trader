@@ -1,0 +1,31 @@
+{
+  "near_1a2b3c...7z": [
+    {
+      "symbol": "USDT",
+      "balance": "1.793181",
+      "asset_id": "nep141:usdt.tether-token.near"
+    },
+    {
+      "symbol": "BTC",
+      "balance": "0.00000927",
+      "asset_id": "nep141:btc.omft.near"
+    },
+    {
+      "symbol": "NEAR",
+      "balance": "15.25",
+      "asset_id": "near"
+    }
+  ],
+  "near_7z6y5x...1a": [
+    {
+      "symbol": "USDT",
+      "balance": "53.42",
+      "asset_id": "nep141:usdt.tether-token.near"
+    },
+    {
+      "symbol": "DOGE",
+      "balance": "300.75",
+      "asset_id": "nep141:doge.omft.near"
+    }
+  ]
+}

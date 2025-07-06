@@ -1,0 +1,54 @@
+[
+  {
+    "userId": "user_1",
+    "createdAt": "2025-06-15T10:00:00Z",
+    "updatedAt": "2025-06-15T10:00:00Z",
+    "wallet": {
+      "address": "lamkhanh.near",
+      "privateKey": "ed25519:5SsgHXxb64xuhnjMt98DZBUz5wkhLH9LcjkvNcVYHEBYCnTWrgmTW9NgZYWgKEvntU3au5zBb1Gibs3M1MFqfkuv"
+    },
+    "notifications": {
+      "telegramId": "123456789",
+      "email": "user1@example.com",
+      "isTelegramEnabled": true,
+      "isEmailEnabled": false
+    },
+    "settings": {
+      "defaultExpiryDays": 7
+    }
+  },
+  {
+    "userId": "user_654321fedcba",
+    "createdAt": "2025-06-20T14:30:00Z",
+    "updatedAt": "2025-06-20T14:30:00Z",
+    "wallet": {
+      "address": "lamkhanh.near",
+      "privateKey": "mock_private_key_2"
+    },
+    "notifications": {
+      "telegramId": "987654321",
+      "email": "user2@example.com",
+      "isTelegramEnabled": false,
+      "isEmailEnabled": true
+    },
+    "settings": {
+      "defaultExpiryDays": 5
+    }
+  },
+  {
+    "wallet": {
+      "address": "meteorkent.near",
+      "privateKey": "asdasd"
+    },
+    "notifications": {
+      "isTelegramEnabled": false,
+      "isEmailEnabled": false
+    },
+    "settings": {
+      "defaultExpiryDays": 7
+    },
+    "userId": "user_b96123be-9",
+    "createdAt": "2025-07-03T04:56:39.053Z",
+    "updatedAt": "2025-07-03T04:56:39.053Z"
+  }
+]
